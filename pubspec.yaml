@@ -1,0 +1,27 @@
+name: top
+description: Don't miss any hot topic.
+publish_to: "none"
+version: 1.1.0
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  html: ^0.15.2
+  http: ^0.13.5
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  image_path: "images/icon.png"
+  android: true
